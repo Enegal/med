@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.FrmAnalitica">
+  <grid id="4d5e" binding="panelAnalitica" row-count="5" column-count="1" layout-manager="GridLayoutManager">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="0" y="0" width="500" height="400"/>
+      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d1" class="javax.swing.JLabel" binding="lblTotalAtenciones">
+        <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Total Atenciones: 0"/></properties>
+      </component>
+      <component id="d2" class="javax.swing.JLabel" binding="lblTiempoPromedio">
+        <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Tiempo Promedio de Espera: 0 mins"/></properties>
+      </component>
+      <component id="d3" class="javax.swing.JTextArea" binding="txtReporteEspecialidad">
+        <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Reporte por especialidad..."/></properties>
+      </component>
+      <scrollpane id="d4">
+        <constraints><grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d5" class="javax.swing.JTable" binding="tbCargaLaboralMedicos">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="d6" class="javax.swing.JButton" binding="btnActualizarEstadisticas">
+        <constraints><grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Actualizar Estadísticas"/></properties>
+      </component>
+    </children>
+  </grid>
+</form>

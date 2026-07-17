@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.FrmAdmision">
+  <grid id="1a2b" binding="panelAdmision" row-count="8" column-count="1" layout-manager="GridLayoutManager">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="0" y="0" width="500" height="500"/>
+      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a1" class="javax.swing.JTextField" binding="txtNombrePaciente">
+        <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Nombre del Paciente"/></properties>
+      </component>
+      <component id="a2" class="javax.swing.JTextField" binding="txtDNI">
+        <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="DNI"/></properties>
+      </component>
+      <component id="a3" class="javax.swing.JTextArea" binding="txtSintomas">
+        <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Síntomas..."/></properties>
+      </component>
+      <component id="a4" class="javax.swing.JTextField" binding="txtSignosVitales">
+        <constraints><grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Signos Vitales"/></properties>
+      </component>
+      <component id="a5" class="javax.swing.JComboBox" binding="cbNivelUrgencia">
+        <constraints><grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties/>
+      </component>
+      <component id="a6" class="javax.swing.JButton" binding="btnRegistrarPaciente">
+        <constraints><grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Registrar Paciente"/></properties>
+      </component>
+      <component id="a7" class="javax.swing.JButton" binding="btnActualizarEstado">
+        <constraints><grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Actualizar Estado"/></properties>
+      </component>
+      <scrollpane id="a8">
+        <constraints><grid row="7" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a9" class="javax.swing.JTable" binding="tbColaEspera">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

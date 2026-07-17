@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.FrmInsumos">
+  <grid id="3c4d" binding="panelInsumos" row-count="7" column-count="1" layout-manager="GridLayoutManager">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="0" y="0" width="600" height="400"/>
+      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="c1" class="javax.swing.JLabel" binding="lblEstadoCamasUCI">
+        <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Estado de Camas UCI: "/></properties>
+      </component>
+      <component id="c2" class="javax.swing.JTextField" binding="txtNombreInsumo">
+        <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Nombre Insumo"/></properties>
+      </component>
+      <component id="c3" class="javax.swing.JTextField" binding="txtCantidadIngreso">
+        <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Cantidad"/></properties>
+      </component>
+      <component id="c4" class="javax.swing.JComboBox" binding="cbTipoInsumo">
+        <constraints><grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties/>
+      </component>
+      <component id="c5" class="javax.swing.JButton" binding="btnRegistrarIngreso">
+        <constraints><grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Registrar Ingreso"/></properties>
+      </component>
+      <component id="c6" class="javax.swing.JButton" binding="btnGenerarAlertaStock">
+        <constraints><grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/></constraints>
+        <properties><text value="Generar Alerta de Stock"/></properties>
+      </component>
+      <scrollpane id="c7">
+        <constraints><grid row="6" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/></constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c8" class="javax.swing.JTable" binding="tbInventario">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
